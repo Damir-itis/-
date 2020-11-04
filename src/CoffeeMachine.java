@@ -3,6 +3,7 @@
 public class CoffeeMachine {
     private int water;
     private int milk;
+    ControlPanel fgh;
 
     public int getWater() {
         return water;
@@ -17,6 +18,11 @@ public class CoffeeMachine {
     }
 
     public void setMilk(int milk) {
+        this.milk=milk;
+    }
+
+    public CoffeeMachine(int water, int milk) {
+        this.water=water;
         this.milk=milk;
     }
 
